@@ -1,6 +1,7 @@
 <template>
   <div>
-    <TheHeader/>
+    <TheHeader />
     <slot />
+    <the-footer />
   </div>
 </template>
