@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout :name="layout">
+  <NuxtLayout>
     <aside>
       <ul>
         <li>
@@ -28,13 +28,7 @@
       </ul>
     </aside>
     <section>
-
+      <h1>The Home Page</h1>
     </section>
   </NuxtLayout>
 </template>
-
-<script>
-
-const layout = 'default';
-
-</script>
