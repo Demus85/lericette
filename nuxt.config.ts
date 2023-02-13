@@ -9,4 +9,20 @@ export default defineNuxtConfig({
   components: [
     {path:'~/components/', pathPrefix: false,},
   ],
+  modules: [
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          Roboto: true,
+          'Josefin+Sans': true,
+          Lato: [100, 300],
+          Raleway: {
+            wght: [100, 400],
+            ital: [100]
+          },
+        }
+      },
+    ],
+  ],
 })
