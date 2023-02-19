@@ -1,5 +1,8 @@
 <template>
-  <footer id="footer" class="h-25 text-center">
+  <footer
+    id="footer"
+    class="h-25 text-center"
+  >
     <p>Legal notes</p>
   </footer>
 </template>

@@ -1,6 +1,6 @@
 <template>
-    <!-- <NuxtWelcome /> -->
-    <NuxtPage />
+  <!-- <NuxtWelcome /> -->
+  <NuxtPage />
 </template>
 
 <style lang="scss">

@@ -1,12 +1,15 @@
 <template>
   <aside class="pa-md-0">
     <v-list v-model:opened="open">
-      <v-list-group value="Ricette" class="expand-list">
-        <template v-slot:activator="{ props }">
+      <v-list-group
+        value="Ricette"
+        class="expand-list"
+      >
+        <template #activator="{ props }">
           <v-list-item
             v-bind="props"
             title="Ricette"
-          ></v-list-item>
+          />
         </template>
         <v-list-item>Antipasti</v-list-item>
         <v-list-item>Primi</v-list-item>
@@ -20,12 +23,15 @@
       <v-list-item>Ricette veloci</v-list-item>
       <v-list-item>Ricette festive/eventi</v-list-item>
 
-      <v-list-group value="Cucine del mondo" class="expand-list">
-        <template v-slot:activator="{ props }">
+      <v-list-group
+        value="Cucine del mondo"
+        class="expand-list"
+      >
+        <template #activator="{ props }">
           <v-list-item
             v-bind="props"
             title="Cucine del mondo"
-          ></v-list-item>
+          />
         </template>
         <v-list-item>Cinese</v-list-item>
         <v-list-item>Indiana</v-list-item>

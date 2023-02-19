@@ -6,28 +6,58 @@
         <v-card-item class="w-25">
           <v-list>
             <v-list-item>
-              <Icon name="icon-park-outline:chef-hat-one" size="1em" /> 
+              <Icon
+                name="icon-park-outline:chef-hat-one"
+                size="1em"
+              /> 
               Difficoltà: 
-              <Icon name="icon-park:chef-hat-one" size="1em" /> 
-              <Icon name="icon-park:chef-hat-one" size="1em" /> 
-              <Icon name="icon-park-twotone:chef-hat-one" size="1em" />
-              <Icon name="icon-park-twotone:chef-hat-one" size="1em" />
-              <Icon name="icon-park-twotone:chef-hat-one" size="1em" />
+              <Icon
+                name="icon-park:chef-hat-one"
+                size="1em"
+              /> 
+              <Icon
+                name="icon-park:chef-hat-one"
+                size="1em"
+              /> 
+              <Icon
+                name="icon-park-twotone:chef-hat-one"
+                size="1em"
+              />
+              <Icon
+                name="icon-park-twotone:chef-hat-one"
+                size="1em"
+              />
+              <Icon
+                name="icon-park-twotone:chef-hat-one"
+                size="1em"
+              />
             </v-list-item>
             <v-list-item>
-              <Icon name="material-symbols:nest-clock-farsight-analog-outline-rounded" size="1em" /> 
+              <Icon
+                name="material-symbols:nest-clock-farsight-analog-outline-rounded"
+                size="1em"
+              /> 
               Preparazione: 30 min
             </v-list-item>
             <v-list-item>
-              <Icon name="ph:cooking-pot-fill" size="1em" /> 
+              <Icon
+                name="ph:cooking-pot-fill"
+                size="1em"
+              /> 
               Cottura: 20 min
             </v-list-item>
             <v-list-item>
-              <Icon name="emojione-monotone:fork-and-knife-with-plate" size="1em" /> 
+              <Icon
+                name="emojione-monotone:fork-and-knife-with-plate"
+                size="1em"
+              /> 
               Dosi: 4 persone
             </v-list-item>
             <v-list-item>
-              <Icon name="uil:euro-circle" size="1em" /> 
+              <Icon
+                name="uil:euro-circle"
+                size="1em"
+              /> 
               Costo: basso
             </v-list-item>
           </v-list>

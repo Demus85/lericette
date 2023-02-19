@@ -6,8 +6,14 @@
       label="Search..." 
       variant="underlined"
     />
-    <v-btn type="submit" class="pa-md-0 w-0"> 
-      <Icon name="bx:search-alt" size="1.6em" /> 
+    <v-btn
+      type="submit"
+      class="pa-md-0 w-0"
+    > 
+      <Icon
+        name="bx:search-alt"
+        size="1.6em"
+      /> 
     </v-btn>
   </v-form>
 </template>
