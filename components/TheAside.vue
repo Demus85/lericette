@@ -9,7 +9,6 @@
           ></v-list-item>
         </template>
         <v-list-item>Antipasti</v-list-item>
-        <v-list-item>Antipasti</v-list-item>
         <v-list-item>Primi</v-list-item>
         <v-list-item>Secondi</v-list-item>
         <v-list-item>Dolci</v-list-item>

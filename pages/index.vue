@@ -2,7 +2,7 @@
   <NuxtLayout>
     <div class="main-content d-flex flex-md-row">
       <TheAside />
-      <section class="pa-md-2">
+      <section class="px-md-4">
         <h1>Ricette recenti:</h1>
         <TheCarousel class="mb-md-4" />
         <h1>Le piu calde:</h1>

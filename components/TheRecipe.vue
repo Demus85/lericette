@@ -27,7 +27,7 @@
     
     <div class="d-flex flex-column px-4">
       <div>
-        <Icon name="svg-spinners:clock" size="1em" /> 
+        <Icon name="material-symbols:nest-clock-farsight-analog-outline-rounded" size="1em" /> 
         Tempo totale: 30 min
       </div>
       <div>
@@ -50,7 +50,7 @@
         variant="text"
         @click="0"
       >
-        Vai alla ricetta
+        <NuxtLink to="/recipePage">Vai alla ricetta</NuxtLink> 
       </v-btn>
     </v-card-actions>
   </v-card>
