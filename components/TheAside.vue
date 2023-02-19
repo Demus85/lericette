@@ -33,10 +33,34 @@
             title="Cucine del mondo"
           />
         </template>
-        <v-list-item>Cinese</v-list-item>
-        <v-list-item>Indiana</v-list-item>
-        <v-list-item>Giapponese</v-list-item>
-        <v-list-item>Ceca</v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-china" 
+            size="1.5em" 
+          />
+          Cinese
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-india" 
+            size="1.5em" 
+          />
+          Indiana
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-japan" 
+            size="1.5em" 
+          />
+          Giapponese
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-czechia" 
+            size="1.5em" 
+          />
+          Ceca
+        </v-list-item>
       </v-list-group>
     </v-list>
   </aside>
