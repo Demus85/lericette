@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <TheHeader />
-    <slot />
-    <the-footer />
-  </div>
+  <div class="h-screen">
+  <TheHeader />
+  <slot />
+  <TheFooter />
+</div>
 </template>

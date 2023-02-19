@@ -1,34 +1,31 @@
 <template>
   <NuxtLayout>
-    <aside>
-      <ul>
-        <li>
-          Ricette
-          <ul>
-            <li>Antipasti</li>
-            <li>Primi</li>
-            <li>Secondi</li>
-            <li>Dolci</li>
-            <li>Lievitati</li>
-            <li>Piatti unici</li>
-          </ul>
-        </li>
-        <li>Benessere</li>
-        <li>Ricette veloci</li>
-        <li>Ricette festive/eventi</li>
-        <li>
-          Cucine del mondo
-          <ul>
-            <li>Cinese</li>
-            <li>Indiana</li>
-            <li>Giapponese</li>
-            <li>Ceca</li>
-        </ul>
-        </li>
-      </ul>
-    </aside>
-    <section>
-      <h1>The Home Page</h1>
-    </section>
+    <div class="main-content d-flex flex-md-row">
+      <TheAside />
+      <section class="pa-md-2">
+        <h1>Ricette recenti:</h1>
+        <TheCarousel class="mb-md-4" />
+        <h1>Le piu calde:</h1>
+        <TheCarousel class="mb-md-4" />
+        <h1>Le Vegetariane:</h1>
+        <TheCarousel class="mb-md-4" />
+        <h1>I Dolci:</h1>
+        <TheCarousel class="mb-md-4" />
+      </section>
+  </div>
   </NuxtLayout>
 </template>
+
+<style scoped>
+.main-content {
+  min-height: 100%;
+}
+
+aside {
+  width: 15%;
+  height: max-content;
+}
+section {
+  width: 85%;
+}
+</style>
