@@ -72,7 +72,10 @@
           <v-table density="compact">
             <thead>
               <tr>
-                <th colspan="3" class="text-left">
+                <th
+                  colspan="3"
+                  class="text-left"
+                >
                   {{ table.title }}
                 </th>
               </tr>
@@ -82,9 +85,15 @@
                 v-for="item in nutrition"
                 :key="item.name"
               >
-                <td class="w-50">{{ item.name }}</td>
-                <td class="w-25 text-right">{{ item.unitofmeasure }}</td>
-                <td class="w-25 text-right">{{ item.quantity }}</td>
+                <td class="w-50">
+                  {{ item.name }}
+                </td>
+                <td class="w-25 text-right">
+                  {{ item.unitofmeasure }}
+                </td>
+                <td class="w-25 text-right">
+                  {{ item.quantity }}
+                </td>
               </tr>
             </tbody>
           </v-table>
@@ -113,26 +122,44 @@
       </v-card>
 
       <div class="ma-md-8">
-        <h2 class="mt-md-2">Storia della Carbonara:</h2>
+        <h2 class="mt-md-2">
+          Storia della Carbonara:
+        </h2>
         <p class="text-justify">
           Dove sono nati gli spaghetti alla carbonara? Il Vicolo della Scrofa, per chi conosce Roma, è una delle stradine più caratteristiche e ricche di simboli. Proprio in una trattoria di questa strada, da cui il nome del vicolo, pare sia stata realizzata la prima carbonara, nel 1944. La storia più attendibile su questo primo piatto, infatti, racconta l'incontro tra gli ingredienti a disposizione dei soldati americani e la fantasia di un cuoco romano. Il risultato fu il prototipo degli spaghetti alla carbonara: uova, bacon (poi guanciale) e formaggio. Man a mano la ricetta è evoluta fino a quella che tutti conosciamo oggi e possiamo apprezzare a casa di amici romani veraci (e voraci!), nelle trattorie come nei ristoranti stellati della Capitale, in tutta Italia e all'estero, nelle innumerevoli versioni: con o senza pepe, con un tuorlo per persona o l'aggiunta di almeno un uovo intero, con guanciale o pancetta tesa.
-Il condimento per la carbonara si prepara in una manciata di minuti, come tante altre prelibatezze romane (pensiamo alla cacio e pepe!). Pensate che occorrono soltanto guanciale speziato tagliato a striscioline, una crema dorata a base di tuorli (nella nostra versione) e tanto Pecorino romano grattugiato al momento.
-Nella sua semplicità e nella ricchezza delle materie prime, la ricetta degli spaghetti alla carbonara è parente stretta di altri due capisaldi della cucina genuina italiana: l'amatriciana e la gricia! Strizza l'occhio anche alla pasta alla zozzona, un piatto robusto che unisce il meglio delle preparazioni di base della cucina laziale. Fate un tuffo nella Roma popolare insieme a noi e scoprite come realizzare dei cremosissimi spaghetti alla carbonara, fateci sapere se la nostra versione vi piace.
+          Il condimento per la carbonara si prepara in una manciata di minuti, come tante altre prelibatezze romane (pensiamo alla cacio e pepe!). Pensate che occorrono soltanto guanciale speziato tagliato a striscioline, una crema dorata a base di tuorli (nella nostra versione) e tanto Pecorino romano grattugiato al momento.
+          Nella sua semplicità e nella ricchezza delle materie prime, la ricetta degli spaghetti alla carbonara è parente stretta di altri due capisaldi della cucina genuina italiana: l'amatriciana e la gricia! Strizza l'occhio anche alla pasta alla zozzona, un piatto robusto che unisce il meglio delle preparazioni di base della cucina laziale. Fate un tuffo nella Roma popolare insieme a noi e scoprite come realizzare dei cremosissimi spaghetti alla carbonara, fateci sapere se la nostra versione vi piace.
         </p>
       </div>
-      <v-divider></v-divider>
+      <v-divider />
 
       <div class="ma-md-8"> 
         <h2>Preparazione:</h2>
         <div class="d-md-flex flex-md-row flex-md-wrap">
-          <v-card class="ingredients pa-md-2" width="500px">
+          <v-card
+            class="ingredients pa-md-2"
+            width="500px"
+          >
             <v-card-title>Ingredienti:</v-card-title>
-            <v-list class="d-md-flex flex-md-row flex-md-wrap w-100" elevation="1">
-              <v-list-item class="w-50">Spaghetti <span>320 g</span></v-list-item>
-              <v-list-item class="w-50">Tuorli (di uova medie) <span>6</span></v-list-item>
-              <v-list-item class="w-50">Pepe nero <span>q.b.</span></v-list-item>
-              <v-list-item class="w-50">Guanciale <span>150 g</span></v-list-item>
-              <v-list-item class="w-50">Pecorino romano <span>50 g</span></v-list-item>
+            <v-list
+              class="d-md-flex flex-md-row flex-md-wrap w-100"
+              elevation="1"
+            >
+              <v-list-item class="w-50">
+                Spaghetti <span>320 g</span>
+              </v-list-item>
+              <v-list-item class="w-50">
+                Tuorli (di uova medie) <span>6</span>
+              </v-list-item>
+              <v-list-item class="w-50">
+                Pepe nero <span>q.b.</span>
+              </v-list-item>
+              <v-list-item class="w-50">
+                Guanciale <span>150 g</span>
+              </v-list-item>
+              <v-list-item class="w-50">
+                Pecorino romano <span>50 g</span>
+              </v-list-item>
             </v-list>
           </v-card>
           <p class="text-justify">
@@ -148,7 +175,9 @@ Nella sua semplicità e nella ricchezza delle materie prime, la ricetta degli sp
       </div>
       
       <v-card>
-        <v-card-title class="font-weight-bold">Conservazione:</v-card-title>
+        <v-card-title class="font-weight-bold">
+          Conservazione:
+        </v-card-title>
         <v-card-text>
           Consigliamo di consumare al momento gli spaghetti alla carbonara.
         </v-card-text>
@@ -158,9 +187,9 @@ Nella sua semplicità e nella ricchezza delle materie prime, la ricetta degli sp
         <h3>Consigli:</h3>
         <p class="text-justify"> 
           Il guanciale non dovrà essere rosolato troppo, altrimenti potrebbe rilasciare un gusto amarognolo. Inoltre è bene aggiungere il guanciale solo all'ultimo per mantenere la sua croccantezza.
-          <v-divider class="my-md-6"></v-divider>
+          <v-divider class="my-md-6" />
           Per evitare l'effetto frittata è importante aggiungere il composto di tuorli solo a fuoco spento. La mantecatura è un passaggio importante, bisogna mescolare sino a che la cremina non si è addensata. E potete regolare la consistenza aggiungendo acqua di cottura della pasta.
-          <v-divider class="my-md-6"></v-divider>
+          <v-divider class="my-md-6" />
           Potete utilizzare metà dose di Pecorino e metà dose di Parmigiano per una versione più delicata.
         </p>
       </div>
