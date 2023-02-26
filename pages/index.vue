@@ -12,7 +12,7 @@
         <h1>I Dolci:</h1>
         <TheCarousel class="mb-md-4" />
       </section>
-  </div>
+    </div>
   </NuxtLayout>
 </template>
 

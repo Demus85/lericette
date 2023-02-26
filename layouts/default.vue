@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen">
-  <TheHeader />
-  <slot />
-  <TheFooter />
-</div>
+    <TheHeader />
+    <slot />
+    <TheFooter />
+  </div>
 </template>

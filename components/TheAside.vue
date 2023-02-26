@@ -1,12 +1,15 @@
 <template>
   <aside class="pa-md-0">
     <v-list v-model:opened="open">
-      <v-list-group value="Ricette" class="expand-list">
-        <template v-slot:activator="{ props }">
+      <v-list-group
+        value="Ricette"
+        class="expand-list"
+      >
+        <template #activator="{ props }">
           <v-list-item
             v-bind="props"
             title="Ricette"
-          ></v-list-item>
+          />
         </template>
         <v-list-item>Antipasti</v-list-item>
         <v-list-item>Primi</v-list-item>
@@ -20,17 +23,44 @@
       <v-list-item>Ricette veloci</v-list-item>
       <v-list-item>Ricette festive/eventi</v-list-item>
 
-      <v-list-group value="Cucine del mondo" class="expand-list">
-        <template v-slot:activator="{ props }">
+      <v-list-group
+        value="Cucine del mondo"
+        class="expand-list"
+      >
+        <template #activator="{ props }">
           <v-list-item
             v-bind="props"
             title="Cucine del mondo"
-          ></v-list-item>
+          />
         </template>
-        <v-list-item>Cinese</v-list-item>
-        <v-list-item>Indiana</v-list-item>
-        <v-list-item>Giapponese</v-list-item>
-        <v-list-item>Ceca</v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-china" 
+            size="1.5em" 
+          />
+          Cinese
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-india" 
+            size="1.5em" 
+          />
+          Indiana
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-japan" 
+            size="1.5em" 
+          />
+          Giapponese
+        </v-list-item>
+        <v-list-item>
+          <Icon 
+            name="openmoji:flag-czechia" 
+            size="1.5em" 
+          />
+          Ceca
+        </v-list-item>
       </v-list-group>
     </v-list>
   </aside>

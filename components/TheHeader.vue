@@ -1,5 +1,8 @@
 <template>
-  <header id="header" class="pa-md-2">
+  <header
+    id="header"
+    class="pa-md-2"
+  >
     <TheNavigation />
   </header>
 </template>
